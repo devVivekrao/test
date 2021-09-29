@@ -1,0 +1,148 @@
+.head__section__container {
+  position: relative;
+  overflow: hidden;
+  height: 800px;
+  // font-size: 15px;
+  .pic2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 750px;
+    width: 100%;
+    z-index: -98;
+  }
+  .pic3 {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: 300px;
+    z-index: -98;
+  }
+  .pic4 {
+    position: absolute;
+    top: 15%;
+    right: 0;
+    height: 300px;
+    z-index: -98;
+  }
+  > .page__wrapper {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 101;
+    .row {
+      width: 100%;
+      text-align: left;
+      color: $darkBlue;
+      // text-transform: capitalize;
+      .column-1 {
+        padding-left: 0;
+        .slogan__1 {
+          font-size: 1.1rem;
+        }
+        > span {
+          color: $blue;
+          text-transform: uppercase;
+          font-weight: 600;
+          font-family: $sourceSansPro, sans-serif;
+          letter-spacing: 1.5px;
+        }
+        .slogan__1__p {
+          font-size: 1rem;
+          padding-right: 4rem;
+        }
+        .custom__class {
+          width: max-content;
+        }
+      }
+      .column-2 {
+        position: relative;
+        .pic5,
+        .pic6 {
+          position: absolute;
+        }
+        .pic6 {
+          top: -70px;
+          left: -70px;
+          img {
+            height: 500px;
+            width: 600px;
+          }
+        }
+        .pic5 {
+          top: -70px;
+          left: -30px;
+          img {
+            height: 500px;
+            width: 580px;
+          }
+        }
+      }
+
+      h1 {
+        font-family: $sourceSansPro, sans-serif;
+        font-weight: 700;
+        font-size: 54px;
+        text-transform: capitalize;
+        // line-height: 64.8px;
+        margin: 0.5rem 0;
+        > span {
+          color: $blue;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 40.375em) {
+  .head__section__container {
+    height: 900px;
+
+    > .page__wrapper {
+      height: 80%;
+      .row {
+        // justify-content: flex-start;
+        // align-items: flex-start;
+        // margin-top: -100px;
+        .column-1 {
+          .slogan__1 {
+            font-size: 1.1rem;
+            // padding-right: 0;
+            // display: none;
+          }
+          .slogan__1__p {
+            padding-right: 0;
+          }
+          .custom__class {
+            width: max-content;
+            padding: 10px 20px;
+          }
+
+          h1 {
+            font-size: 2.2rem;
+          }
+        }
+        .column-2 {
+          margin-top: 3rem;
+          .pic6 {
+            top: 0px;
+            left: 10px;
+            img {
+              height: 280px;
+              width: 300px;
+            }
+          }
+          .pic5 {
+            top: 0px;
+            left: 10px;
+            img {
+              height: 280px;
+              width: 380px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.how__we__can__help__container {
+  width: 100%;
+  .page__wrapper {
+    .row {
+      .column-1 {
+        img {
+          height: 500px;
+          width: 550px;
+        }
+      }
+      .column-2 {
+        .about__us {
+          background-color: rgba(137, 110, 255, 0.1);
+          color: $blue;
+          width: max-content;
+          padding: 0.5rem 1.3rem;
+          margin: 1.2rem 0;
+        }
+        h1 {
+          font-family: $sourceSansPro, sans-serif;
+          color: $darkBlue;
+          font-weight: 700;
+          // font-size: 54px;
+          margin-bottom: 1.1rem;
+          text-transform: capitalize;
+        }
+        p {
+          color: $darkBlue;
+        }
+        .ceo {
+          text-transform: uppercase;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 40.375em) {
+  .how__we__can__help__container {
+    .page__wrapper {
+      .row {
+        .column-1 {
+          img {
+            height: 350px;
+            width: 310px;
+          }
+        }
+      }
+    }
+  }
+}

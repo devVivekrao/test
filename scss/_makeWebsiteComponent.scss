@@ -1,0 +1,48 @@
+.make__website__container {
+  position: relative;
+  background-image: url("../public/images/bg_5.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  padding: 5rem 0;
+  width: 100%;
+}
+
+.side__text {
+  color: $darkBlue;
+  text-transform: capitalize;
+  font-family: $sourceSansPro, sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.make__website__cta {
+  width: max-content;
+  border: 2px solid $blue;
+  background: $white;
+  padding: 10px 32px;
+  border-radius: 100px;
+  color: $blue;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  &:hover {
+    transition: all 0.5s;
+    border: 2px solid $blue;
+    color: $white;
+    background-color: $blue;
+  }
+  i {
+    transform: scale($scale);
+  }
+
+  span {
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 40.375em) {
+  .side__text {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+}

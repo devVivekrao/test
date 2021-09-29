@@ -1,0 +1,162 @@
+$scale: 0.7;
+
+@keyframes upFromDown {
+  49% {
+    transform: translateY(100%);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  51% {
+    opacity: 1;
+  }
+}
+
+.bg__transparent {
+  background: transparent;
+  width: 100%;
+  transition: all 0.5s;
+  position: fixed;
+  z-index: 100;
+  // color: $white;
+}
+
+.bg__white {
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  background: $white;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s;
+  color: $darkBlue;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 85px;
+  transition: all 0.8s;
+  .logo > a,
+  .logo > a:hover {
+    font-weight: 900;
+    font-size: 1.7rem;
+  }
+}
+.nav__menu {
+  height: 100%;
+  list-style-type: none;
+  font-weight: 600;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.has__sub__menu {
+  position: relative;
+
+  :hover {
+    color: $blue;
+    > a > span {
+      animation: upFromDown 0.5s;
+    }
+  }
+  a {
+    i {
+      transform: scale($scale);
+    }
+  }
+}
+
+.has__sub__menu:hover > .sub__menu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+  transform: translateY(0);
+}
+.has__sub__menu > a > span {
+  margin-right: 2px;
+}
+
+.sub__menu {
+  list-style-type: none;
+  position: absolute;
+  background: white;
+  width: max-content;
+  box-shadow: 0px 1px 40px 0px rgba(0, 0, 0, 0.1);
+  display: block;
+  padding: 5px 0px;
+  left: 0;
+  top: 120%;
+  transform: translateY(30px);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+  z-index: 10;
+}
+
+.sub__menu > li {
+  position: relative;
+}
+.sub__menu > li > a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $darkBlue;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 25px;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.sub__menu > li > a::after {
+  content: "";
+  background-color: $blue;
+  position: absolute;
+  height: 1px;
+  width: 0;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.5s;
+}
+
+.sub__menu > li:hover > a {
+  color: $blue;
+  padding: 10px 20px 10px 35px;
+  background-color: #f2f2f2;
+}
+.sub__menu > li:hover > a:after {
+  width: 10px;
+}
+.nav__cta {
+  border: 2px solid $blue;
+  background: $blue;
+  padding: 10px 32px;
+  border-radius: 100px;
+  color: $white;
+  cursor: pointer;
+  transition: all 0.5s;
+  width: max-content;
+  i {
+    transform: scale($scale);
+  }
+}
+.nav__cta:hover {
+  transition: all 0.5s;
+  border: 2px solid $blue;
+  color: $blue;
+  background-color: $white;
+}
+.nav__cta span {
+  margin-left: 5px;
+}
+
+// .bg__transparent {
+//   display: none;
+// }
