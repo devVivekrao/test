@@ -6,21 +6,25 @@
   background-size: cover;
   padding: 5rem 0;
   width: 100%;
+  margin-top: 5rem;
 }
 
 .side__text {
-  color: $darkBlue;
-  text-transform: capitalize;
-  font-family: $sourceSansPro, sans-serif;
-  font-weight: 700;
-  font-size: 2.5rem;
+  h1 {
+    font-family: $sourceSansPro, sans-serif;
+    color: $darkBlue;
+    font-weight: 700;
+    // font-size: 54px;
+    margin-bottom: 1.1rem;
+    text-transform: uppercase;
+  }
 }
 .make__website__cta {
   width: max-content;
   border: 2px solid $blue;
   background: $white;
   padding: 10px 32px;
-  border-radius: 100px;
+  border-radius: 10px;
   color: $blue;
   cursor: pointer;
   transition: all 0.5s;
@@ -42,7 +46,7 @@
 
 @media screen and (max-width: 40.375em) {
   .side__text {
-    font-size: 2rem;
+    // font-size: 2rem;
     margin-bottom: 2rem;
   }
 }

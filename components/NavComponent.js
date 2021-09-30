@@ -212,11 +212,11 @@ export default function NavComponent(props) {
             <li className="nav__item">
               <Link href="/portfolio">portfolio</Link>
             </li>
-            <li className="nav__item nav__cta">
+            <li className="nav__item make__website__cta">
               <Link href="/get-quote">
                 <div>
                   <i className="fa fa-chevron-right"></i>
-                  <span>Get a quote</span>
+                  <span>GET A QUOTE</span>
                 </div>
               </Link>
             </li>

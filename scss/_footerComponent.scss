@@ -4,13 +4,13 @@
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-  background-color: $darkBlue;
+  background-color: $blue;
   color: $white;
   padding: 5rem 0;
   font-size: 16px;
   width: 100%;
   //   font-weight: 300;
-  //   opacity: 0.9;
+  // opacity: 0.6;
 }
 
 .logo__footer > a,
@@ -68,7 +68,7 @@
 
 .column ul li a::after {
   content: "";
-  background-color: $blue;
+  background-color: $white;
   position: absolute;
   height: 2px;
   width: 0;
@@ -78,7 +78,7 @@
   transition: all 0.5s;
 }
 .column ul li:hover > a {
-  color: $blue;
+  color: $white;
   padding: 0px 0px 0px 25px;
 }
 .column ul li:hover > a:after {
@@ -131,7 +131,7 @@
     &:hover {
       transition: all 0.5s;
       color: $white;
-      background-color: $blue;
+      background-color: $darkBlue;
       opacity: 1;
     }
   }

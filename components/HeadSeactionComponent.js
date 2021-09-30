@@ -56,7 +56,7 @@ export default function HeadSeactionComponent(props) {
               Pellentesque vitae ante at elit fringilla ac at purus.
             </p>
             <Link href="/get-quote">
-              <div className="nav__cta custom__class">
+              <div className="make__website__cta custom__class">
                 <i className="fa fa-chevron-right"></i>
                 <span>Learn more</span>
               </div>

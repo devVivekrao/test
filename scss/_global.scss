@@ -7,6 +7,11 @@ body {
   font-family: $poppins, -apple-system, Helvetica, sans-serif;
   line-height: 1.6;
 }
+
+::selection {
+  color: $white;
+  background: $bg-green;
+}
 a {
   color: inherit;
   text-decoration: none;

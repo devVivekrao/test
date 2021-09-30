@@ -7,7 +7,7 @@ export default function MakeWebsite() {
       <div className="page__wrapper">
         <Row>
           <Col md={8} xs={12} className="side__text">
-            want to make your website in top notch tecnology with us
+            <h1> want to make your website in top notch tecnology with us </h1>
           </Col>
           <Col md={4} xs={12}>
             <Link href="/get-quote">

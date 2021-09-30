@@ -4,6 +4,9 @@ import FooterComponent from "../components/FooterComponent";
 import MakeWebsiteComponent from "../components/MakeWebsiteComponent";
 import HeadSeactionComponent from "../components/HeadSeactionComponent";
 import HowWeCanHelpComponent from "../components/HowWeCanHelpComponent";
+import CardComponent from "../components/CardComponents";
+import HelpProcessComponent from "../components/HelpProcessComponent";
+import ContactUsComponent from "../components/ContactUsComponent";
 export default function Home() {
   return (
     <div>
@@ -16,11 +19,10 @@ export default function Home() {
       <NavComponent onIndex="true" />
       <HeadSeactionComponent />
       <HowWeCanHelpComponent />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <CardComponent />
+      <HelpProcessComponent />
+      <ContactUsComponent />
+
       <MakeWebsiteComponent />
       <FooterComponent />
     </div>
