@@ -1,7 +1,14 @@
 import Head from "next/head";
 import NavComponent from "../../components/NavComponent";
-import HeaderComponent from "../../components/HeaderComponents";
 import FooterComponent from "../../components/FooterComponent";
+import MakeWebsiteComponent from "../../components/MakeWebsiteComponent";
+import HeaderComponent from "../../components/HeaderComponents";
+import HowWeCanHelpComponent from "../../components/HowWeCanHelpComponent";
+import CardComponent from "../../components/CardComponents";
+import HelpProcessComponent from "../../components/HelpProcessComponent";
+import ContactUsComponent from "../../components/ContactUsComponent";
+import OurLatestProject from "../../components/OurLatestProject";
+import Testimonials from "../../components/Testimonials";
 
 export default function AppDevelopment() {
   return (
@@ -14,17 +21,13 @@ export default function AppDevelopment() {
 
       <NavComponent setColor="#ffffff" />
       <HeaderComponent name="social media optimization" />
-      <h1>Company page </h1>
-      <h1>Company page </h1>
-      <h1>Company page </h1>
-      <h1>Company page </h1>
-      <h1>Company page </h1>
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <HowWeCanHelpComponent />
+      <CardComponent />
+      <HelpProcessComponent />
+      <Testimonials />
+      <OurLatestProject />
+      <ContactUsComponent />
+      <MakeWebsiteComponent />
       <FooterComponent />
     </div>
   );

@@ -100,7 +100,12 @@ export default function ContactUsComponent(props) {
                     <option selected>Choose Service</option>
                     <option value="1">Web Development</option>
                     <option value="2">Web Design</option>
-                    <option value="3">Strategy &amp; Research</option>
+                    <option value="3">App Development</option>
+                    <option value="4">Digital Marketing</option>
+                    <option value="5">SEO</option>
+                    <option value="6">SMO</option>
+                    <option value="7">MLM</option>
+                    <option value="8">SMS</option>
                   </select>
                 </div>
               </div>
@@ -119,41 +124,7 @@ export default function ContactUsComponent(props) {
                   ></textarea>
                 </div>
               </div>
-              <div class="col-sm-12">
-                <div class="input-group">
-                  <div
-                    class="g-recaptcha"
-                    data-sitekey="6LefsVUUAAAAADBPsLZzsNnETChealv6PYGzv3ZN"
-                    data-callback="verifyRecaptchaCallback"
-                    data-expired-callback="expiredRecaptchaCallback"
-                  ></div>
-                  <input
-                    class="form-control d-none"
-                    data-recaptcha="true"
-                    required=""
-                    data-error="Please complete the Captcha"
-                  />
-                </div>
-              </div>
-              <div>
-                <div>
-                  <div>
-                    <div>
-                      <iframe
-                        title="reCAPTCHA"
-                        src="https://www.google.com/recaptcha/api2/anchor?ar=2&amp;k=6LefsVUUAAAAADBPsLZzsNnETChealv6PYGzv3ZN&amp;co=aHR0cHM6Ly9zYW1hcnRoZW1lMS52ZXJjZWwuYXBwOjQ0Mw..&amp;hl=en&amp;type=image&amp;v=-TriQeni1Ls-Mdq_ssN2cUL5&amp;theme=light&amp;size=normal&amp;badge=bottomright&amp;cb=mt7xe0ob6fim"
-                        role="presentation"
-                        name="a-5dzc5k341a9z"
-                        scrolling="no"
-                        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
-                        width="304"
-                        height="78"
-                        frameborder="0"
-                      ></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
               <div class="col-sm-12">
                 <button
                   name="submit"

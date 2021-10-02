@@ -29,7 +29,7 @@ export default function HowWeCanHelpComponent(props) {
             </p>
             <h1 className="ceo">--ceo maria doe</h1>
             <div className=" make__website__cta">
-              <Link href="/get-quote">
+              <Link href="/about/company">
                 <div>
                   <i className="fa fa-chevron-right"></i>
                   <span>Learn more</span>

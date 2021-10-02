@@ -7,6 +7,9 @@ import HowWeCanHelpComponent from "../components/HowWeCanHelpComponent";
 import CardComponent from "../components/CardComponents";
 import HelpProcessComponent from "../components/HelpProcessComponent";
 import ContactUsComponent from "../components/ContactUsComponent";
+import AwesomeServiceComponent from "../components/AwesomeServiceComponent";
+import OurLatestProject from "../components/OurLatestProject";
+import Testimonials from "../components/Testimonials";
 export default function Home() {
   return (
     <div>
@@ -18,11 +21,13 @@ export default function Home() {
       </Head>
       <NavComponent onIndex="true" />
       <HeadSeactionComponent />
+      <AwesomeServiceComponent />
       <HowWeCanHelpComponent />
       <CardComponent />
       <HelpProcessComponent />
+      <Testimonials />
+      <OurLatestProject />
       <ContactUsComponent />
-
       <MakeWebsiteComponent />
       <FooterComponent />
     </div>

@@ -1,8 +1,12 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import BackToTop from "../components/BackToTop";
+import BackToWhatsapp from "../components/whatsapp";
+import Modal from "../components/Modal";
 
 export default function NavComponent(props) {
   const [scrollY, setScrollY] = useState(0);
+  const [showModal, setShowModal] = useState(true);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -15,9 +19,14 @@ export default function NavComponent(props) {
     };
   }, []);
 
-  // props.setColor;
   return (
     <div className={scrollY > 100 ? "bg__white" : "bg__transparent"}>
+      <div
+        className={showModal ? "modal__overlay show" : "modal__overlay hide"}
+      ></div>
+      <BackToTop />
+      <BackToWhatsapp />
+      <Modal showModal={showModal} setShowModal={setShowModal} />
       <div className="page__wrapper">
         <nav className="nav">
           <div className="logo">

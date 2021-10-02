@@ -1,0 +1,109 @@
+.back__to__top {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  a {
+    .scroltop {
+      border: 0;
+      margin: 0;
+      outline: none;
+      color: $white;
+      padding: 1rem;
+      box-shadow: -4px 4px 12px -5px $darkBlue !important;
+      background: $darkBlue;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      cursor: pointer;
+      text-align: center;
+      z-index: 999;
+      line-height: 0;
+    }
+  }
+}
+
+.back__to__whatsapp {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+
+  a {
+    .scroltop {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      cursor: pointer;
+      border: 0;
+      outline: none;
+      color: $white;
+      box-shadow: -4px 4px 12px -5px $bg-green !important;
+      background: $bg-green;
+      padding: 1rem;
+      line-height: 0;
+      z-index: 999;
+      i {
+        transform: scale(2);
+      }
+    }
+  }
+}
+
+.modal__dialog {
+  // box-shadow: -4px 4px 12px -5px $bg-blue !important;
+  border-radius: 10px;
+  padding: 2rem;
+  background: $white;
+  position: fixed;
+  // border: 1px solid red;
+  z-index: 999;
+  height: 80%;
+  width: 80%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .contact__us__container {
+    margin-top: 0;
+  }
+  .close__btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    color: $white;
+    background: $bg-red;
+    padding: 1rem;
+    line-height: 0;
+    z-index: 999;
+  }
+  > .page__wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+}
+
+.modal__overlay {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  opacity: 0.5;
+  z-index: 999;
+  position: fixed;
+}
+@media screen and (max-width: 40.375em) {
+  .modal__dialog {
+    padding: 0rem;
+    background: $white;
+    position: fixed;
+    z-index: 999;
+    height: 95%;
+    width: 95%;
+  }
+}
