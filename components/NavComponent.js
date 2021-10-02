@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import BackToTop from "../components/BackToTop";
-import BackToWhatsapp from "../components/whatsapp";
+import BackToWhatsapp from "../components/Whatsapp";
 import Modal from "../components/Modal";
 
 export default function NavComponent(props) {
   const [scrollY, setScrollY] = useState(0);
   const [showModal, setShowModal] = useState(true);
+  const [showNav, setShowNav] = useState("");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,10 +20,17 @@ export default function NavComponent(props) {
     };
   }, []);
 
+  const setShowNavHandler = () => {
+    setShowNav(!showNav);
+    console.log(showNav);
+  };
+
   return (
     <div className={scrollY > 100 ? "bg__white" : "bg__transparent"}>
       <div
-        className={showModal ? "modal__overlay show" : "modal__overlay hide"}
+        className={
+          showModal || showNav ? "modal__overlay show" : "modal__overlay hide"
+        }
       ></div>
       <BackToTop />
       <BackToWhatsapp />
@@ -32,7 +40,12 @@ export default function NavComponent(props) {
           <div className="logo">
             <Link href="/">Technoindiaz</Link>
           </div>
-          <ul className="nav__menu">
+          <ul className={showNav ? "nav__menu show_nav_menu" : "nav__menu "}>
+            <li className="nav__close__btn">
+              <button className="close__nav__btn" onClick={setShowNavHandler}>
+                <i className="fa fa-close"></i>
+              </button>
+            </li>
             <li className="nav__item">
               <Link href="/">Home</Link>
             </li>
@@ -221,7 +234,11 @@ export default function NavComponent(props) {
             <li className="nav__item">
               <Link href="/portfolio">portfolio</Link>
             </li>
-            <li className="nav__item make__website__cta">
+            <li
+              className={
+                showNav ? "nav__item nav__cta" : "nav__item make__website__cta"
+              }
+            >
               <Link href="/get-quote">
                 <div>
                   <i className="fa fa-chevron-right"></i>
@@ -230,6 +247,9 @@ export default function NavComponent(props) {
               </Link>
             </li>
           </ul>
+          <button className="hamburger" onClick={setShowNavHandler}>
+            <i className="fa fa-bars"></i>
+          </button>
         </nav>
       </div>
     </div>

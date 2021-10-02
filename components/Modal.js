@@ -1,5 +1,4 @@
 import ContactUsComponent from "../components/ContactUsComponent";
-import { useState } from "react";
 
 export default function Modal(props) {
   const setShowModalHandler = () => {
