@@ -8,95 +8,99 @@ export default function ContactUsComponent(props) {
           <Col md={6} xs={12} className="column-2">
             <div className="about__us">Contact Us</div>
             <h1>We Love To Help Great Companies To Grow Their Bussiness.</h1>
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text">
-                      <i class="lni lni-user"></i>
+            <div className="row">
+              <div className="col-sm-6">
+                <div className="input-group">
+                  <div className="input-group-prepend">
+                    <span className="input-group-text">
+                      <i className="lni lni-user"></i>
                     </span>
                   </div>
                   <input
                     type="text"
                     name="dzName"
                     required=""
-                    class="form-control"
+                    className="form-control"
                     placeholder="First Name"
                   />
                 </div>
               </div>
-              <div class="col-sm-6">
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text">
-                      <i class="lni lni-user"></i>
+              <div className="col-sm-6">
+                <div className="input-group">
+                  <div className="input-group-prepend">
+                    <span className="input-group-text">
+                      <i className="lni lni-user"></i>
                     </span>
                   </div>
                   <input
                     type="text"
                     name="dzOther[last_name]"
-                    class="form-control"
+                    className="form-control"
                     required=""
                     placeholder="Last Name"
                   />
                 </div>
               </div>
-              <div class="col-sm-6">
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text">
-                      <i class="lni lni-envelope"></i>
+              <div className="col-sm-6">
+                <div className="input-group">
+                  <div className="input-group-prepend">
+                    <span className="input-group-text">
+                      <i className="lni lni-envelope"></i>
                     </span>
                   </div>
                   <input
                     type="text"
                     name="dzEmail"
                     required=""
-                    class="form-control"
+                    className="form-control"
                     placeholder="Email Address"
                   />
                 </div>
               </div>
-              <div class="col-sm-6">
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text">
-                      <i class="lni lni-mobile"></i>
+              <div className="col-sm-6">
+                <div className="input-group">
+                  <div className="input-group-prepend">
+                    <span className="input-group-text">
+                      <i className="lni lni-mobile"></i>
                     </span>
                   </div>
                   <input
                     type="text"
                     name="dzOther[phone]"
                     required=""
-                    class="form-control"
+                    className="form-control"
                     placeholder="Moblie number"
                   />
                 </div>
               </div>
-              <div class="col-sm-6">
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text">
-                      <i class="lni lni-empty-file"></i>
+              <div className="col-sm-6">
+                <div className="input-group">
+                  <div className="input-group-prepend">
+                    <span className="input-group-text">
+                      <i className="lni lni-empty-file"></i>
                     </span>
                   </div>
                   <input
                     type="text"
                     name="dzOther[project_title]"
-                    class="form-control"
+                    className="form-control"
                     required=""
                     placeholder="Project Title"
                   />
                 </div>
               </div>
-              <div class="col-sm-6">
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text">
-                      <i class="lni lni-list"></i>
+              <div className="col-sm-6">
+                <div className="input-group">
+                  <div className="input-group-prepend">
+                    <span className="input-group-text">
+                      <i className="lni lni-list"></i>
                     </span>
                   </div>
-                  <select name="choose_service" class="form-control" required>
+                  <select
+                    name="choose_service"
+                    className="form-control"
+                    required
+                  >
                     <option selected>Choose Service</option>
                     <option value="1">Web Development</option>
                     <option value="2">Web Design</option>
@@ -109,28 +113,28 @@ export default function ContactUsComponent(props) {
                   </select>
                 </div>
               </div>
-              <div class="col-sm-12">
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text">
-                      <i class="lni lni-notepad"></i>
+              <div className="col-sm-12">
+                <div className="input-group">
+                  <div className="input-group-prepend">
+                    <span className="input-group-text">
+                      <i className="lni lni-notepad"></i>
                     </span>
                   </div>
                   <textarea
                     name="dzMessage"
                     required=""
-                    class="form-control"
+                    className="form-control"
                     placeholder="Message"
                   ></textarea>
                 </div>
               </div>
 
-              <div class="col-sm-12">
+              <div className="col-sm-12">
                 <button
                   name="submit"
                   type="submit"
                   value="Submit"
-                  class="make__website__cta"
+                  className="make__website__cta"
                 >
                   <i className="fa fa-chevron-right"></i>
                   <span>Submit now</span>

@@ -12,11 +12,11 @@ export default function AwesomeServiceComponent(props) {
         <img src={Pic4} />
       </div>
       <div className="page__wrapper">
-        <div class="section-head style-1 text-center">
-          <h6 class="sub-title bgl-primary m-b20 text-primary service__name">
+        <div className="section-head style-1 text-center">
+          <h6 className="sub-title bgl-primary m-b20 text-primary service__name">
             Services
           </h6>
-          <h1 class="title">Provide Awesome Service To You</h1>
+          <h1 className="title">Provide Awesome Service To You</h1>
         </div>
         <Row className="cards">
           <Col md={4} xs={12} className="on__sm__mb__20 fade__up__on__hover">
@@ -28,7 +28,7 @@ export default function AwesomeServiceComponent(props) {
               </div>
               <div className="icon-content">
                 <h2 className="counter m-b0 text-primary">
-                  <span class="service__title">Web Development</span>
+                  <span className="service__title">Web Development</span>
                 </h2>
                 <span className="content">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -47,7 +47,7 @@ export default function AwesomeServiceComponent(props) {
               </div>
               <div className="icon-content">
                 <h2 className="counter m-b0 text-primary">
-                  <span class="service__title">Web Designing</span>
+                  <span className="service__title">Web Designing</span>
                 </h2>
                 <span className="content">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -66,7 +66,7 @@ export default function AwesomeServiceComponent(props) {
               </div>
               <div className="icon-content">
                 <h2 className="counter m-b0 text-primary">
-                  <span class="service__title">Degital Marketing</span>
+                  <span className="service__title">Degital Marketing</span>
                 </h2>
                 <span className="content">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.

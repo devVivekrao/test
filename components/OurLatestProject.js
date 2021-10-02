@@ -37,16 +37,16 @@ export default function OurLatestProject(props) {
         <img src={Pic4} />
       </div>
       <div className="page__wrapper">
-        <div class="section-head style-1 text-center">
-          <h6 class="sub-title bgl-primary m-b20 text-primary service__name">
+        <div className="section-head style-1 text-center">
+          <h6 className="sub-title bgl-primary m-b20 text-primary service__name">
             Our Project
           </h6>
-          <h1 class="title">Take A Look At Our Latest Portfolio</h1>
+          <h1 className="title">Take A Look At Our Latest Portfolio</h1>
         </div>
-        <div class="site-filters style-1 clearfix center m-b40">
-          <ul class="filters">
+        <div className="site-filters style-1 clearfix center m-b40">
+          <ul className="filters">
             <li
-              class="btn active"
+              className="btn active"
               onClick={() => {
                 filterSelection("all");
               }}
@@ -54,7 +54,7 @@ export default function OurLatestProject(props) {
               <a>All</a>
             </li>
             <li
-              class="btn"
+              className="btn"
               onClick={() => {
                 filterSelection("web__design");
               }}
@@ -62,7 +62,7 @@ export default function OurLatestProject(props) {
               <a>Web Design</a>
             </li>
             <li
-              class="btn "
+              className="btn "
               onClick={() => {
                 filterSelection("web__development");
               }}
@@ -70,7 +70,7 @@ export default function OurLatestProject(props) {
               <a>Web Development</a>
             </li>
             <li
-              class="btn "
+              className="btn "
               onClick={() => {
                 filterSelection("digital__marketing");
               }}
@@ -78,7 +78,7 @@ export default function OurLatestProject(props) {
               <a>digital marketing</a>
             </li>
             <li
-              class="btn "
+              className="btn "
               onClick={() => {
                 filterSelection("mobile__app");
               }}
@@ -86,7 +86,7 @@ export default function OurLatestProject(props) {
               <a>Mobile App</a>
             </li>
             <li
-              class="btn "
+              className="btn "
               onClick={() => {
                 filterSelection("seo");
               }}

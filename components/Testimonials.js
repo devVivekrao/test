@@ -18,8 +18,8 @@ export default function Testimonials() {
         <Row>
           <Col md={9} xs={12} className="side__text">
             <Slider {...settings}>
-              <div class="testimonial__div">
-                <div class="testimonial-text">
+              <div className="testimonial__div">
+                <div className="testimonial-text">
                   <p>
                     “Aenean massa diam, sollicitudin non dui ut, facilisis
                     viverra libero. Nulla facilisi. Nunc sed purus erat.
@@ -27,20 +27,22 @@ export default function Testimonials() {
                     non”
                   </p>
                 </div>
-                <div class="testimonial-detail">
-                  <div class="testimonial-pic">
+                <div className="testimonial-detail">
+                  <div className="testimonial-pic">
                     <img src={Test} alt="" />
                   </div>
-                  <div class="clearfix">
-                    <strong class="testimonial-name">Lora Price</strong>
+                  <div className="clearfix">
+                    <strong className="testimonial-name">Lora Price</strong>
                     <br />
-                    <span class="testimonial-position">CEO &amp; Founder </span>
+                    <span className="testimonial-position">
+                      CEO &amp; Founder{" "}
+                    </span>
                   </div>
                 </div>
               </div>
 
-              <div class="testimonial__div">
-                <div class="testimonial-text">
+              <div className="testimonial__div">
+                <div className="testimonial-text">
                   <p>
                     “Aenean massa diam, sollicitudin non dui ut, facilisis
                     viverra libero. Nulla facilisi. Nunc sed purus erat.
@@ -48,19 +50,21 @@ export default function Testimonials() {
                     non”
                   </p>
                 </div>
-                <div class="testimonial-detail">
-                  <div class="testimonial-pic">
+                <div className="testimonial-detail">
+                  <div className="testimonial-pic">
                     <img src={Test} alt="" />
                   </div>
-                  <div class="clearfix">
-                    <strong class="testimonial-name">Lora Price</strong>
+                  <div className="clearfix">
+                    <strong className="testimonial-name">Lora Price</strong>
                     <br />
-                    <span class="testimonial-position">CEO &amp; Founder </span>
+                    <span className="testimonial-position">
+                      CEO &amp; Founder{" "}
+                    </span>
                   </div>
                 </div>
               </div>
-              <div class="testimonial__div">
-                <div class="testimonial-text">
+              <div className="testimonial__div">
+                <div className="testimonial-text">
                   <p>
                     “Aenean massa diam, sollicitudin non dui ut, facilisis
                     viverra libero. Nulla facilisi. Nunc sed purus erat.
@@ -68,19 +72,21 @@ export default function Testimonials() {
                     non”
                   </p>
                 </div>
-                <div class="testimonial-detail">
-                  <div class="testimonial-pic">
+                <div className="testimonial-detail">
+                  <div className="testimonial-pic">
                     <img src={Test} alt="" />
                   </div>
-                  <div class="clearfix">
-                    <strong class="testimonial-name">Lora Price</strong>
+                  <div className="clearfix">
+                    <strong className="testimonial-name">Lora Price</strong>
                     <br />
-                    <span class="testimonial-position">CEO &amp; Founder </span>
+                    <span className="testimonial-position">
+                      CEO &amp; Founder{" "}
+                    </span>
                   </div>
                 </div>
               </div>
-              <div class="testimonial__div">
-                <div class="testimonial-text">
+              <div className="testimonial__div">
+                <div className="testimonial-text">
                   <p>
                     “Aenean massa diam, sollicitudin non dui ut, facilisis
                     viverra libero. Nulla facilisi. Nunc sed purus erat.
@@ -88,19 +94,21 @@ export default function Testimonials() {
                     non”
                   </p>
                 </div>
-                <div class="testimonial-detail">
-                  <div class="testimonial-pic">
+                <div className="testimonial-detail">
+                  <div className="testimonial-pic">
                     <img src={Test} alt="" />
                   </div>
-                  <div class="clearfix">
-                    <strong class="testimonial-name">Lora Price</strong>
+                  <div className="clearfix">
+                    <strong className="testimonial-name">Lora Price</strong>
                     <br />
-                    <span class="testimonial-position">CEO &amp; Founder </span>
+                    <span className="testimonial-position">
+                      CEO &amp; Founder{" "}
+                    </span>
                   </div>
                 </div>
               </div>
-              <div class="testimonial__div">
-                <div class="testimonial-text">
+              <div className="testimonial__div">
+                <div className="testimonial-text">
                   <p>
                     “Aenean massa diam, sollicitudin non dui ut, facilisis
                     viverra libero. Nulla facilisi. Nunc sed purus erat.
@@ -108,19 +116,21 @@ export default function Testimonials() {
                     non”
                   </p>
                 </div>
-                <div class="testimonial-detail">
-                  <div class="testimonial-pic">
+                <div className="testimonial-detail">
+                  <div className="testimonial-pic">
                     <img src={Test} alt="" />
                   </div>
-                  <div class="clearfix">
-                    <strong class="testimonial-name">Lora Price</strong>
+                  <div className="clearfix">
+                    <strong className="testimonial-name">Lora Price</strong>
                     <br />
-                    <span class="testimonial-position">CEO &amp; Founder </span>
+                    <span className="testimonial-position">
+                      CEO &amp; Founder{" "}
+                    </span>
                   </div>
                 </div>
               </div>
-              <div class="testimonial__div">
-                <div class="testimonial-text">
+              <div className="testimonial__div">
+                <div className="testimonial-text">
                   <p>
                     “Aenean massa diam, sollicitudin non dui ut, facilisis
                     viverra libero. Nulla facilisi. Nunc sed purus erat.
@@ -128,14 +138,16 @@ export default function Testimonials() {
                     non”
                   </p>
                 </div>
-                <div class="testimonial-detail">
-                  <div class="testimonial-pic">
+                <div className="testimonial-detail">
+                  <div className="testimonial-pic">
                     <img src={Test} alt="" />
                   </div>
-                  <div class="clearfix">
-                    <strong class="testimonial-name">Lora Price</strong>
+                  <div className="clearfix">
+                    <strong className="testimonial-name">Lora Price</strong>
                     <br />
-                    <span class="testimonial-position">CEO &amp; Founder </span>
+                    <span className="testimonial-position">
+                      CEO &amp; Founder{" "}
+                    </span>
                   </div>
                 </div>
               </div>
