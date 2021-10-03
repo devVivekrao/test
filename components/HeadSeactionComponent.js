@@ -9,7 +9,7 @@ import { Row, Col } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
 export default function HeadSeactionComponent(props) {
   return (
-    <div className="head__section__container">
+    <div className="head__section__container head__feature">
       <div className="pic2">
         <img src={Pic2} />
       </div>

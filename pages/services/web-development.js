@@ -9,7 +9,7 @@ import HelpProcessComponent from "../../components/HelpProcessComponent";
 import ContactUsComponent from "../../components/ContactUsComponent";
 import OurLatestProject from "../../components/OurLatestProject";
 import Testimonials from "../../components/Testimonials";
-
+import HeadFeature from "../../components/HeadFeature";
 export default function WebDevelopment() {
   return (
     <div>
@@ -20,6 +20,7 @@ export default function WebDevelopment() {
       </Head>
       <NavComponent setColor="#ffffff" />
       <HeaderComponent name="web development" />
+      <HeadFeature name="Web Development" price="12000" />
       <HowWeCanHelpComponent />
       <CardComponent />
       <HelpProcessComponent />

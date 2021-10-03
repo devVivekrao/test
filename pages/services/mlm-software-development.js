@@ -9,6 +9,7 @@ import HelpProcessComponent from "../../components/HelpProcessComponent";
 import ContactUsComponent from "../../components/ContactUsComponent";
 import OurLatestProject from "../../components/OurLatestProject";
 import Testimonials from "../../components/Testimonials";
+import HeadFeature from "../../components/HeadFeature";
 
 export default function Mlm() {
   return (
@@ -21,6 +22,8 @@ export default function Mlm() {
 
       <NavComponent setColor="#ffffff" />
       <HeaderComponent name="mlm software development" />
+      <HeadFeature name="MLM Software Development" price="15000" />
+
       <HowWeCanHelpComponent />
       <CardComponent />
       <HelpProcessComponent />

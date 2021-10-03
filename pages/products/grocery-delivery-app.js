@@ -9,6 +9,8 @@ import HelpProcessComponent from "../../components/HelpProcessComponent";
 import ContactUsComponent from "../../components/ContactUsComponent";
 import OurLatestProject from "../../components/OurLatestProject";
 import Testimonials from "../../components/Testimonials";
+import HeadFeature from "../../components/HeadFeature";
+
 export default function AppDevelopment() {
   return (
     <div>
@@ -20,6 +22,8 @@ export default function AppDevelopment() {
 
       <NavComponent setColor="#ffffff" />
       <HeaderComponent name="grocery delivery app" />
+      <HeadFeature name="Grocery Delivery App" price="9000" />
+
       <HowWeCanHelpComponent />
       <CardComponent />
       <HelpProcessComponent />

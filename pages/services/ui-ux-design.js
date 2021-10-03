@@ -9,6 +9,7 @@ import HelpProcessComponent from "../../components/HelpProcessComponent";
 import ContactUsComponent from "../../components/ContactUsComponent";
 import OurLatestProject from "../../components/OurLatestProject";
 import Testimonials from "../../components/Testimonials";
+import HeadFeature from "../../components/HeadFeature";
 
 export default function UiUxDesign() {
   return (
@@ -21,6 +22,8 @@ export default function UiUxDesign() {
 
       <NavComponent setColor="#ffffff" />
       <HeaderComponent name="ui ux design" />
+      <HeadFeature name="Ui Ux Design" price="15000" />
+
       <HowWeCanHelpComponent />
       <CardComponent />
       <HelpProcessComponent />

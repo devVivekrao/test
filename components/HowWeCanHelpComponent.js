@@ -5,7 +5,7 @@ export default function HowWeCanHelpComponent(props) {
   return (
     <div className="how__we__can__help__container">
       <div className="page__wrapper">
-        <Row>
+        <Row className="about__us__row">
           <Col md={6} xs={12} className="column-1">
             <img src={Aaa} alt="image" />
           </Col>

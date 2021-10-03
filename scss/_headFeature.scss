@@ -1,0 +1,17 @@
+.head__feature {
+  .row {
+    .column-1 {
+      padding-left: 0;
+      .slogan__1 {
+        font-size: 1.1rem;
+      }
+      .red {
+        color: $bg-red;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: $sourceSansPro, sans-serif;
+        letter-spacing: 1.5px;
+      }
+    }
+  }
+}

@@ -9,6 +9,7 @@ import HelpProcessComponent from "../../components/HelpProcessComponent";
 import ContactUsComponent from "../../components/ContactUsComponent";
 import OurLatestProject from "../../components/OurLatestProject";
 import Testimonials from "../../components/Testimonials";
+import HeadFeature from "../../components/HeadFeature";
 
 export default function CrmDevelopment() {
   return (
@@ -21,6 +22,8 @@ export default function CrmDevelopment() {
 
       <NavComponent setColor="#ffffff" />
       <HeaderComponent name="crm erp portal development" />
+      <HeadFeature name="Crm Erp Portal Development" price="15000" />
+
       <HowWeCanHelpComponent />
       <CardComponent />
       <HelpProcessComponent />

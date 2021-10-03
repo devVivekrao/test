@@ -47,6 +47,9 @@
           }
         }
       }
+      .about__us__row {
+        flex-direction: column-reverse;
+      }
     }
   }
 }

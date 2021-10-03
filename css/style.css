@@ -165,6 +165,7 @@ a {
     font-size: 1.7rem; }
 
 .nav__menu {
+  transition: all 0.5s;
   height: 100%;
   list-style-type: none;
   font-weight: 600;
@@ -286,7 +287,7 @@ a {
     background: #ffffff;
     position: fixed;
     top: 0;
-    left: -300px;
+    left: -100%;
     height: 100vh;
     width: 80%;
     z-index: 1000;
@@ -295,7 +296,8 @@ a {
     align-items: flex-start;
     justify-content: flex-start;
     gap: 0;
-    padding: 50px 2rem; }
+    padding: 50px 2rem;
+    transition: all 0.5s; }
     .nav__menu .nav__item {
       display: block;
       width: 100%;
@@ -645,7 +647,9 @@ a {
 @media screen and (max-width: 40.375em) {
   .how__we__can__help__container .page__wrapper .row .column-1 img {
     height: 350px;
-    width: 310px; } }
+    width: 310px; }
+  .how__we__can__help__container .page__wrapper .about__us__row {
+    flex-direction: column-reverse; } }
 
 .help__process {
   margin-top: 5rem; }
@@ -890,10 +894,24 @@ iframe {
     transform: scale(0.7); }
   .make__website__cta span {
     margin-left: 5px; }
+  .make__website__cta .fa-phone {
+    transform: scale(1.16);
+    margin-right: 5px; }
 
 @media screen and (max-width: 40.375em) {
   .side__text {
     margin-bottom: 2rem; } }
+
+.head__feature .row .column-1 {
+  padding-left: 0; }
+  .head__feature .row .column-1 .slogan__1 {
+    font-size: 1.1rem; }
+  .head__feature .row .column-1 .red {
+    color: #ff586e;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Source Sans Pro", sans-serif;
+    letter-spacing: 1.5px; }
 
 .footer__container {
   position: relative;

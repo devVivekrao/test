@@ -2,6 +2,9 @@ import Head from "next/head";
 import NavComponent from "../../components/NavComponent";
 import HeaderComponent from "../../components/HeaderComponents";
 import FooterComponent from "../../components/FooterComponent";
+import OurLatestProject from "../../components/OurLatestProject";
+import ContactUsComponent from "../../components/ContactUsComponent";
+import MakeWebsiteComponent from "../../components/MakeWebsiteComponent";
 
 export default function OurCaseStudy() {
   return (
@@ -14,19 +17,9 @@ export default function OurCaseStudy() {
 
       <NavComponent setColor="#ffffff" />
       <HeaderComponent name="our case study" />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <OurLatestProject />
+      <ContactUsComponent />
+      <MakeWebsiteComponent />
       <FooterComponent />
     </div>
   );

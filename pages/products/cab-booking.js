@@ -9,6 +9,7 @@ import HelpProcessComponent from "../../components/HelpProcessComponent";
 import ContactUsComponent from "../../components/ContactUsComponent";
 import OurLatestProject from "../../components/OurLatestProject";
 import Testimonials from "../../components/Testimonials";
+import HeadFeature from "../../components/HeadFeature";
 
 export default function AppDevelopment() {
   return (
@@ -20,7 +21,9 @@ export default function AppDevelopment() {
       </Head>
 
       <NavComponent setColor="#ffffff" />
-      <HeaderComponent name="cab booking" />
+      <HeaderComponent name="cab booking app" />
+      <HeadFeature name="Cab Booking App" price="9000" />
+
       <HowWeCanHelpComponent />
       <CardComponent />
       <HelpProcessComponent />

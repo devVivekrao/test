@@ -46,6 +46,8 @@ $scale: 0.7;
   }
 }
 .nav__menu {
+  transition: all 0.5s;
+
   height: 100%;
   list-style-type: none;
   font-weight: 600;
@@ -183,7 +185,7 @@ $scale: 0.7;
     background: $white;
     position: fixed;
     top: 0;
-    left: -300px;
+    left: -100%;
     height: 100vh;
     width: 80%;
     z-index: 1000;
@@ -193,6 +195,7 @@ $scale: 0.7;
     justify-content: flex-start;
     gap: 0;
     padding: 50px 2rem;
+    transition: all 0.5s;
     // display: none;
     // :first-child {
     //   margin-bottom: 1rem;

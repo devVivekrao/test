@@ -9,6 +9,7 @@ import HelpProcessComponent from "../../components/HelpProcessComponent";
 import ContactUsComponent from "../../components/ContactUsComponent";
 import OurLatestProject from "../../components/OurLatestProject";
 import Testimonials from "../../components/Testimonials";
+import HeadFeature from "../../components/HeadFeature";
 
 export default function WebDesigning() {
   return (
@@ -21,6 +22,8 @@ export default function WebDesigning() {
 
       <NavComponent setColor="#ffffff" />
       <HeaderComponent name="web designing" />
+      <HeadFeature name="Web Designing" price="15000" />
+
       <HowWeCanHelpComponent />
       <CardComponent />
       <HelpProcessComponent />

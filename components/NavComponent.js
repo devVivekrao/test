@@ -6,7 +6,6 @@ import Modal from "../components/Modal";
 
 export default function NavComponent(props) {
   const [scrollY, setScrollY] = useState(0);
-  const [showModal, setShowModal] = useState(true);
   const [showNav, setShowNav] = useState("");
 
   useEffect(() => {
@@ -29,12 +28,14 @@ export default function NavComponent(props) {
     <div className={scrollY > 100 ? "bg__white" : "bg__transparent"}>
       <div
         className={
-          showModal || showNav ? "modal__overlay show" : "modal__overlay hide"
+          props.showModal || showNav
+            ? "modal__overlay show"
+            : "modal__overlay hide"
         }
       ></div>
       <BackToTop />
       <BackToWhatsapp />
-      <Modal showModal={showModal} setShowModal={setShowModal} />
+      <Modal showModal={props.showModal} setShowModal={props.setShowModal} />
       <div className="page__wrapper">
         <nav className="nav">
           <div className="logo">
@@ -239,7 +240,7 @@ export default function NavComponent(props) {
                 showNav ? "nav__item nav__cta" : "nav__item make__website__cta"
               }
             >
-              <Link href="/get-quote">
+              <Link href="">
                 <div>
                   <i className="fa fa-chevron-right"></i>
                   <span>GET A QUOTE</span>

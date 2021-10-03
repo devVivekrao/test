@@ -9,6 +9,7 @@ import HelpProcessComponent from "../../components/HelpProcessComponent";
 import ContactUsComponent from "../../components/ContactUsComponent";
 import OurLatestProject from "../../components/OurLatestProject";
 import Testimonials from "../../components/Testimonials";
+import HeadFeature from "../../components/HeadFeature";
 
 export default function AppDevelopment() {
   return (
@@ -21,6 +22,8 @@ export default function AppDevelopment() {
 
       <NavComponent setColor="#ffffff" />
       <HeaderComponent name="b2b b2c portal" />
+      <HeadFeature name="B2B B2C Portal" price="9000" />
+
       <HowWeCanHelpComponent />
       <CardComponent />
       <HelpProcessComponent />

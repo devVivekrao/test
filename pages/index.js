@@ -10,7 +10,14 @@ import ContactUsComponent from "../components/ContactUsComponent";
 import AwesomeServiceComponent from "../components/AwesomeServiceComponent";
 import OurLatestProject from "../components/OurLatestProject";
 import Testimonials from "../components/Testimonials";
+import { useEffect, useState } from "react";
+
 export default function Home() {
+  const [showModal, setShowModal] = useState("");
+
+  useEffect(() => {
+    setShowModal(true);
+  }, []);
   return (
     <div>
       <Head>
@@ -19,7 +26,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <NavComponent onIndex="true" />
+      <NavComponent showModal={showModal} setShowModal={setShowModal} />
       <HeadSeactionComponent />
       <AwesomeServiceComponent />
       <HowWeCanHelpComponent />
