@@ -240,7 +240,7 @@ export default function NavComponent(props) {
                 showNav ? "nav__item nav__cta" : "nav__item make__website__cta"
               }
             >
-              <Link href="">
+              <Link href="/get-quote">
                 <div>
                   <i className="fa fa-chevron-right"></i>
                   <span>GET A QUOTE</span>
