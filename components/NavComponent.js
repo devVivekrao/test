@@ -26,12 +26,9 @@ export default function NavComponent(props) {
 
   return (
     <div className={scrollY > 100 ? "bg__white" : "bg__transparent"}>
+      <div className={props.showModal ? "modal__overlay show" : " hide"}></div>
       <div
-        className={
-          props.showModal || showNav
-            ? "modal__overlay show"
-            : "modal__overlay hide"
-        }
+        className={showNav ? "modal__overlay__on__mobile show" : " hide"}
       ></div>
       <BackToTop />
       <BackToWhatsapp />
