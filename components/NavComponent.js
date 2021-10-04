@@ -42,11 +42,6 @@ export default function NavComponent(props) {
             <Link href="/">Technoindiaz</Link>
           </div>
           <ul className={showNav ? "nav__menu show_nav_menu" : "nav__menu "}>
-            <li className="nav__close__btn">
-              <button className="close__nav__btn" onClick={setShowNavHandler}>
-                <i className="fa fa-close"></i>
-              </button>
-            </li>
             <li className="nav__item">
               <Link href="/">Home</Link>
             </li>
