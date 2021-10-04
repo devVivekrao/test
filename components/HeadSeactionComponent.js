@@ -50,10 +50,9 @@ export default function HeadSeactionComponent(props) {
               </span>
             </h1>
             <p className="slogan__1__p">
-              Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
-              Pellentesque vitae ante at elit fringilla ac at purus.
-              Pellentesque vitae ante at elit fringilla ac at purus.
-              Pellentesque vitae ante at elit fringilla ac at purus.
+              We are a passionate, results-oriented digital marketing team. We
+              deliver end-to-end website design, development & digital marketing
+              solutions that are focused on client goals and objectives.
             </p>
             <Link href="/about/company">
               <div className="make__website__cta custom__class">
