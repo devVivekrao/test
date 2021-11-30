@@ -3,12 +3,9 @@ import NavComponent from "../../components/NavComponent";
 import FooterComponent from "../../components/FooterComponent";
 import MakeWebsiteComponent from "../../components/MakeWebsiteComponent";
 import HeaderComponent from "../../components/HeaderComponents";
-import HowWeCanHelpComponent from "../../components/HowWeCanHelpComponent";
-import CardComponent from "../../components/CardComponents";
-import HelpProcessComponent from "../../components/HelpProcessComponent";
 import ContactUsComponent from "../../components/ContactUsComponent";
-import OurLatestProject from "../../components/OurLatestProject";
-import Testimonials from "../../components/Testimonials";
+import AwesomeServiceComponent from "../../components/AwesomeServiceComponent";
+
 import HeadFeature from "../../components/HeadFeature";
 export default function WebDevelopment() {
   return (
@@ -21,11 +18,7 @@ export default function WebDevelopment() {
       <NavComponent setColor="#ffffff" />
       <HeaderComponent name="web development" />
       <HeadFeature name="Web Development" price="12000" />
-      <HowWeCanHelpComponent />
-      <CardComponent />
-      <HelpProcessComponent />
-      <Testimonials />
-      <OurLatestProject />
+      <AwesomeServiceComponent title="our awesome web development services" />
       <ContactUsComponent />
       <MakeWebsiteComponent />
       <FooterComponent />

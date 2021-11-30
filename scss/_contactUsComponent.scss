@@ -1,6 +1,26 @@
 .contact__us__container {
   //   color: red;
   .page__wrapper {
+    .flash__message__green {
+      // left: 3%;
+      right: 3%;
+      position: fixed;
+      z-index: 2000;
+      top: 20%;
+      border-radius: 10px;
+      background-color: #c6f6d5;
+      color: #276749;
+      // height: 30px;
+      max-width: max-content;
+      padding: 1rem 1rem;
+      button {
+        margin-left: 1rem;
+        background-color: transparent;
+        border: 0;
+        outline: none;
+        color: $bg-red;
+      }
+    }
     .row {
       .column-1 {
         img {
@@ -98,6 +118,10 @@ iframe {
   .contact__us__container {
     //   color: red;
     .page__wrapper {
+      .flash__message__green {
+        left: 1rem;
+        right: 1rem;
+      }
       .row {
         .column-1 {
           img {

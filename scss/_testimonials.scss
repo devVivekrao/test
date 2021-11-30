@@ -1,4 +1,6 @@
 .testimonials__container {
+  background-image: url("../public/images/bg_5_testimonials.jpg");
+
   .page__wrapper {
     .row {
       > div {
@@ -50,6 +52,7 @@
         h1 {
           font-family: $sourceSansPro, sans-serif;
           color: $darkBlue;
+
           font-weight: 700;
           margin-bottom: 1.1rem;
           text-transform: uppercase;
@@ -64,6 +67,8 @@
 
 @media screen and (max-width: 40.375em) {
   .testimonials__container {
+    background-image: url("../public/images/bg_5_testimonials.jpg");
+
     .page__wrapper {
       .row {
         flex-direction: column-reverse;

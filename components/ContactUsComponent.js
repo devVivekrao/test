@@ -106,6 +106,18 @@ export default function ContactUsComponent(props) {
   return (
     <div className="how__we__can__help__container help__process contact__us__container">
       <div className="page__wrapper">
+        <div
+          className={
+            SuccessMessage
+              ? "flash__message__green show"
+              : "flash__message__green hide"
+          }
+        >
+          <span>{SuccessMessage}</span>
+          <button onClick={() => setSuccessMessage("")}>
+            <i className="fa fa-close"></i>
+          </button>
+        </div>
         <Row>
           <Col md={6} xs={12} className="column-2">
             <div className="about__us">Contact Us</div>

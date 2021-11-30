@@ -27,7 +27,7 @@ export default function HowWeCanHelpComponent(props) {
               similique, beatae dolor velit neque nisi! Incidunt facere dolore
               commodi nesciunt.
             </p>
-            <h1 className="ceo">--ceo maria doe</h1>
+            <h1 className="ceo">-ceo Amit doe</h1>
             <div className=" make__website__cta">
               <Link href="/about/company">
                 <div>

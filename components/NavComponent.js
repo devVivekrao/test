@@ -21,7 +21,7 @@ export default function NavComponent(props) {
 
   const setShowNavHandler = () => {
     setShowNav(!showNav);
-    console.log(showNav);
+    // console.log(showNav);
   };
 
   return (
@@ -29,6 +29,7 @@ export default function NavComponent(props) {
       <div className={props.showModal ? "modal__overlay show" : " hide"}></div>
       <div
         className={showNav ? "modal__overlay__on__mobile show" : " hide"}
+        onClick={setShowNavHandler}
       ></div>
       <BackToTop />
       <BackToWhatsapp />
@@ -192,38 +193,7 @@ export default function NavComponent(props) {
                 </li>
               </ul>
             </li>
-            <li className="nav__item has__sub__menu">
-              <a href="#">
-                <span>industry</span>
-                <i className="fa fa-chevron-down"></i>
-              </a>
-              <ul className="sub__menu">
-                <li className="sub__menu__item">
-                  <Link href="/industry/healthcare">Healthcare</Link>
-                </li>
-                <li className="sub__menu__item">
-                  <Link href="/industry/travel">Travel</Link>
-                </li>
-                <li className="sub__menu__item">
-                  <Link href="/industry/education">Education</Link>
-                </li>
-                <li className="sub__menu__item">
-                  <Link href="/industry/retail">Retail</Link>
-                </li>
-                <li className="sub__menu__item">
-                  <Link href="/industry/media">Media </Link>
-                </li>
-                <li className="sub__menu__item">
-                  <Link href="/industry/banking">Banking</Link>
-                </li>
-                <li className="sub__menu__item">
-                  <Link href="/industry/goverment">Goverment</Link>
-                </li>
-                <li className="sub__menu__item">
-                  <Link href="/industry/insurence">Insurance</Link>
-                </li>
-              </ul>
-            </li>
+
             <li className="nav__item">
               <Link href="/portfolio">portfolio</Link>
             </li>

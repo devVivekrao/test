@@ -25,7 +25,7 @@ export default function CardComponent(props) {
                       {({ isVisible }) => (
                         <div style={{ height: 50 }}>
                           {isVisible ? (
-                            <CountUp start={1} end={100} duration={3} />
+                            <CountUp start={1} end={98} duration={2} />
                           ) : null}
                         </div>
                       )}
@@ -53,7 +53,7 @@ export default function CardComponent(props) {
                       {({ isVisible }) => (
                         <div style={{ height: 50 }}>
                           {isVisible ? (
-                            <CountUp start={1} end={100} duration={3} />
+                            <CountUp start={1} end={147} duration={2} />
                           ) : null}
                         </div>
                       )}
@@ -81,7 +81,7 @@ export default function CardComponent(props) {
                       {({ isVisible }) => (
                         <div style={{ height: 50 }}>
                           {isVisible ? (
-                            <CountUp start={1} end={100} duration={3} />
+                            <CountUp start={1} end={230} duration={2} />
                           ) : null}
                         </div>
                       )}
@@ -109,7 +109,7 @@ export default function CardComponent(props) {
                       {({ isVisible }) => (
                         <div style={{ height: 50 }}>
                           {isVisible ? (
-                            <CountUp start={1} end={100} duration={3} />
+                            <CountUp start={1} end={5} duration={2} />
                           ) : null}
                         </div>
                       )}

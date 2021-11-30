@@ -24,10 +24,6 @@ export default function Index() {
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <FooterComponent />
     </div>
   );

@@ -27,11 +27,9 @@ export default function FooterComponent() {
           <Col md={3} className="column" xs={12}>
             <h2 className="column__title">About us</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus laborum qui voluptates labore quasi voluptatem ducimus
-              quisquam aut expedita autem in perspiciatis omnis porro doloribus
-              velit, dicta eaque aspernatur recusandae numquam blanditiis, vitae
-              al.
+              We are a passionate, results-oriented digital marketing team. We
+              deliver end-to-end website design, development & digital marketing
+              solutions that are focused on client goals and objectives.
             </p>
             <Row className="social__icons">
               <a
@@ -71,10 +69,10 @@ export default function FooterComponent() {
                 <Link href="/about/career">career</Link>
               </li>
               <li>
-                <Link href="/about/career">our case study</Link>
+                <Link href="/about/our-case-study">our case study</Link>
               </li>
               <li>
-                <Link href="/marketing/social-media">brand promotion</Link>
+                <Link href="/marketing/brand-promotion">brand promotion</Link>
               </li>
             </ul>
           </Col>
@@ -82,35 +80,37 @@ export default function FooterComponent() {
             <h2 className="column__title">our services</h2>
             <ul>
               <li>
-                <Link href="/home">web deveopment</Link>
+                <Link href="/services/web-development">web development</Link>
               </li>
               <li>
-                <Link href="/about/company">web designing</Link>
+                <Link href="/services/web-designing">web designing</Link>
               </li>
               <li>
-                <Link href="/about/career">app development</Link>
+                <Link href="/services/app-development">app development</Link>
               </li>
               <li>
-                <Link href="/portofolio">degital marketing</Link>
+                <Link href="/services/degital-marketing">
+                  degital marketing
+                </Link>
               </li>
               <li>
-                <Link href="/marketing/social-media">Ui/Ux design </Link>
+                <Link href="/services/ui-ux-design">Ui/Ux design </Link>
               </li>
               <li>
-                <Link href="/marketing/social-media">bulk sms </Link>
+                <Link href="/services/bulk-sms">bulk sms </Link>
               </li>
               <li>
-                <Link href="/marketing/social-media">
+                <Link href="/services/search-engine-optimization">
                   Search engine optimization
                 </Link>
               </li>
               <li>
-                <Link href="/marketing/social-media">
+                <Link href="/services/web-development">
                   Social media optimization
                 </Link>
               </li>
               <li>
-                <Link href="/marketing/social-media">youtube promotion </Link>
+                <Link href="/services/web-development">youtube promotion </Link>
               </li>
             </ul>
           </Col>
@@ -118,19 +118,19 @@ export default function FooterComponent() {
             <h2 className="column__title">other links</h2>
             <ul>
               <li>
-                <Link href="/home">FAQ</Link>
+                <Link href="/faq">FAQ</Link>
               </li>
               <li>
-                <Link href="/about/company">portofolio</Link>
+                <Link href="/portfolio">portfolio</Link>
               </li>
               <li>
-                <Link href="/portofolio">privacy policy</Link>
+                <Link href="/privacy-policy">privacy policy</Link>
               </li>
               <li>
-                <Link href="/about/career">terms & conditions</Link>
+                <Link href="/terms-conditions">terms & conditions</Link>
               </li>
               <li>
-                <Link href="/marketing/social-media">support</Link>
+                <Link href="/about/company">support</Link>
               </li>
             </ul>
           </Col>

@@ -16,7 +16,7 @@ export default function AwesomeServiceComponent(props) {
           <h6 className="sub-title bgl-primary m-b20 text-primary service__name">
             Services
           </h6>
-          <h1 className="title">Provide Awesome Service To You</h1>
+          <h1 className="title">{props.title}</h1>
         </div>
         <Row className="cards">
           <Col md={4} xs={12} className="on__sm__mb__20 fade__up__on__hover">

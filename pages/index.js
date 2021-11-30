@@ -28,7 +28,7 @@ export default function Home() {
       </Head>
       <NavComponent showModal={showModal} setShowModal={setShowModal} />
       <HeadSeactionComponent />
-      <AwesomeServiceComponent />
+      <AwesomeServiceComponent title="Provide Awesome Service To You" />
       <HowWeCanHelpComponent />
       <CardComponent />
       <HelpProcessComponent />
